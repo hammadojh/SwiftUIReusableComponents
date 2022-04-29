@@ -14,8 +14,8 @@ struct ContentView : View {
     
     var body : some View {
         ListSpinner(
-            loadingStrings: ["جاري تحميل معلومات المستخدم","جاري معالجة البيانات","جاري اعداد الصفحة الرئيسية"],
-            step: $step, direction: .trailing)
+            loadingStrings: ["Loading user information","Processing Data", "Preparing your feed"],
+            step: $step, direction: .leading)
             .task {
                 Timer.scheduledTimer(withTimeInterval: 3, repeats: true) { timer in
                     step += 1
