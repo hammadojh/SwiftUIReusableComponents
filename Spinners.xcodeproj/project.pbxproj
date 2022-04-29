@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0793DDCE281BF9C900310E76 /* SpinnersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0793DDCD281BF9C900310E76 /* SpinnersApp.swift */; };
+		0793DDD0281BF9C900310E76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0793DDCF281BF9C900310E76 /* ContentView.swift */; };
+		0793DDD2281BF9CE00310E76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0793DDD1281BF9CE00310E76 /* Assets.xcassets */; };
+		0793DDD5281BF9CE00310E76 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0793DDD4281BF9CE00310E76 /* Preview Assets.xcassets */; };
+		0793DDDF281BF9CE00310E76 /* SpinnersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0793DDDE281BF9CE00310E76 /* SpinnersTests.swift */; };
+		0793DDE9281BF9CE00310E76 /* SpinnersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0793DDE8281BF9CE00310E76 /* SpinnersUITests.swift */; };
+		0793DDEB281BF9CE00310E76 /* SpinnersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0793DDEA281BF9CE00310E76 /* SpinnersUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0793DDDB281BF9CE00310E76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0793DDC2281BF9C900310E76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0793DDC9281BF9C900310E76;
+			remoteInfo = Spinners;
+		};
+		0793DDE5281BF9CE00310E76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0793DDC2281BF9C900310E76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0793DDC9281BF9C900310E76;
+			remoteInfo = Spinners;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0793DDCA281BF9C900310E76 /* Spinners.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spinners.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0793DDCD281BF9C900310E76 /* SpinnersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnersApp.swift; sourceTree = "<group>"; };
+		0793DDCF281BF9C900310E76 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0793DDD1281BF9CE00310E76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0793DDD4281BF9CE00310E76 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0793DDDA281BF9CE00310E76 /* SpinnersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpinnersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0793DDDE281BF9CE00310E76 /* SpinnersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnersTests.swift; sourceTree = "<group>"; };
+		0793DDE4281BF9CE00310E76 /* SpinnersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpinnersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0793DDE8281BF9CE00310E76 /* SpinnersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnersUITests.swift; sourceTree = "<group>"; };
+		0793DDEA281BF9CE00310E76 /* SpinnersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0793DDC7281BF9C900310E76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0793DDD7281BF9CE00310E76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0793DDE1281BF9CE00310E76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0793DDC1281BF9C800310E76 = {
+			isa = PBXGroup;
+			children = (
+				0793DDCC281BF9C900310E76 /* Spinners */,
+				0793DDDD281BF9CE00310E76 /* SpinnersTests */,
+				0793DDE7281BF9CE00310E76 /* SpinnersUITests */,
+				0793DDCB281BF9C900310E76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0793DDCB281BF9C900310E76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0793DDCA281BF9C900310E76 /* Spinners.app */,
+				0793DDDA281BF9CE00310E76 /* SpinnersTests.xctest */,
+				0793DDE4281BF9CE00310E76 /* SpinnersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0793DDCC281BF9C900310E76 /* Spinners */ = {
+			isa = PBXGroup;
+			children = (
+				0793DDCD281BF9C900310E76 /* SpinnersApp.swift */,
+				0793DDCF281BF9C900310E76 /* ContentView.swift */,
+				0793DDD1281BF9CE00310E76 /* Assets.xcassets */,
+				0793DDD3281BF9CE00310E76 /* Preview Content */,
+			);
+			path = Spinners;
+			sourceTree = "<group>";
+		};
+		0793DDD3281BF9CE00310E76 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0793DDD4281BF9CE00310E76 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0793DDDD281BF9CE00310E76 /* SpinnersTests */ = {
+			isa = PBXGroup;
+			children = (
+				0793DDDE281BF9CE00310E76 /* SpinnersTests.swift */,
+			);
+			path = SpinnersTests;
+			sourceTree = "<group>";
+		};
+		0793DDE7281BF9CE00310E76 /* SpinnersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0793DDE8281BF9CE00310E76 /* SpinnersUITests.swift */,
+				0793DDEA281BF9CE00310E76 /* SpinnersUITestsLaunchTests.swift */,
+			);
+			path = SpinnersUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0793DDC9281BF9C900310E76 /* Spinners */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0793DDEE281BF9CE00310E76 /* Build configuration list for PBXNativeTarget "Spinners" */;
+			buildPhases = (
+				0793DDC6281BF9C900310E76 /* Sources */,
+				0793DDC7281BF9C900310E76 /* Frameworks */,
+				0793DDC8281BF9C900310E76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spinners;
+			productName = Spinners;
+			productReference = 0793DDCA281BF9C900310E76 /* Spinners.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0793DDD9281BF9CE00310E76 /* SpinnersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0793DDF1281BF9CE00310E76 /* Build configuration list for PBXNativeTarget "SpinnersTests" */;
+			buildPhases = (
+				0793DDD6281BF9CE00310E76 /* Sources */,
+				0793DDD7281BF9CE00310E76 /* Frameworks */,
+				0793DDD8281BF9CE00310E76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0793DDDC281BF9CE00310E76 /* PBXTargetDependency */,
+			);
+			name = SpinnersTests;
+			productName = SpinnersTests;
+			productReference = 0793DDDA281BF9CE00310E76 /* SpinnersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0793DDE3281BF9CE00310E76 /* SpinnersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0793DDF4281BF9CE00310E76 /* Build configuration list for PBXNativeTarget "SpinnersUITests" */;
+			buildPhases = (
+				0793DDE0281BF9CE00310E76 /* Sources */,
+				0793DDE1281BF9CE00310E76 /* Frameworks */,
+				0793DDE2281BF9CE00310E76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0793DDE6281BF9CE00310E76 /* PBXTargetDependency */,
+			);
+			name = SpinnersUITests;
+			productName = SpinnersUITests;
+			productReference = 0793DDE4281BF9CE00310E76 /* SpinnersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0793DDC2281BF9C900310E76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					0793DDC9281BF9C900310E76 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					0793DDD9281BF9CE00310E76 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 0793DDC9281BF9C900310E76;
+					};
+					0793DDE3281BF9CE00310E76 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 0793DDC9281BF9C900310E76;
+					};
+				};
+			};
+			buildConfigurationList = 0793DDC5281BF9C900310E76 /* Build configuration list for PBXProject "Spinners" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0793DDC1281BF9C800310E76;
+			productRefGroup = 0793DDCB281BF9C900310E76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0793DDC9281BF9C900310E76 /* Spinners */,
+				0793DDD9281BF9CE00310E76 /* SpinnersTests */,
+				0793DDE3281BF9CE00310E76 /* SpinnersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0793DDC8281BF9C900310E76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0793DDD5281BF9CE00310E76 /* Preview Assets.xcassets in Resources */,
+				0793DDD2281BF9CE00310E76 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0793DDD8281BF9CE00310E76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0793DDE2281BF9CE00310E76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0793DDC6281BF9C900310E76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0793DDD0281BF9C900310E76 /* ContentView.swift in Sources */,
+				0793DDCE281BF9C900310E76 /* SpinnersApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0793DDD6281BF9CE00310E76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0793DDDF281BF9CE00310E76 /* SpinnersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0793DDE0281BF9CE00310E76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0793DDEB281BF9CE00310E76 /* SpinnersUITestsLaunchTests.swift in Sources */,
+				0793DDE9281BF9CE00310E76 /* SpinnersUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0793DDDC281BF9CE00310E76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0793DDC9281BF9C900310E76 /* Spinners */;
+			targetProxy = 0793DDDB281BF9CE00310E76 /* PBXContainerItemProxy */;
+		};
+		0793DDE6281BF9CE00310E76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0793DDC9281BF9C900310E76 /* Spinners */;
+			targetProxy = 0793DDE5281BF9CE00310E76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0793DDEC281BF9CE00310E76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0793DDED281BF9CE00310E76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0793DDEF281BF9CE00310E76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Spinners/Preview Content\"";
+				DEVELOPMENT_TEAM = 98Y7S9MWGY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = omarhammad.Spinners;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0793DDF0281BF9CE00310E76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Spinners/Preview Content\"";
+				DEVELOPMENT_TEAM = 98Y7S9MWGY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = omarhammad.Spinners;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0793DDF2281BF9CE00310E76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98Y7S9MWGY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = omarhammad.SpinnersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spinners.app/Spinners";
+			};
+			name = Debug;
+		};
+		0793DDF3281BF9CE00310E76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98Y7S9MWGY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = omarhammad.SpinnersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spinners.app/Spinners";
+			};
+			name = Release;
+		};
+		0793DDF5281BF9CE00310E76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98Y7S9MWGY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = omarhammad.SpinnersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Spinners;
+			};
+			name = Debug;
+		};
+		0793DDF6281BF9CE00310E76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98Y7S9MWGY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = omarhammad.SpinnersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Spinners;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0793DDC5281BF9C900310E76 /* Build configuration list for PBXProject "Spinners" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0793DDEC281BF9CE00310E76 /* Debug */,
+				0793DDED281BF9CE00310E76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0793DDEE281BF9CE00310E76 /* Build configuration list for PBXNativeTarget "Spinners" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0793DDEF281BF9CE00310E76 /* Debug */,
+				0793DDF0281BF9CE00310E76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0793DDF1281BF9CE00310E76 /* Build configuration list for PBXNativeTarget "SpinnersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0793DDF2281BF9CE00310E76 /* Debug */,
+				0793DDF3281BF9CE00310E76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0793DDF4281BF9CE00310E76 /* Build configuration list for PBXNativeTarget "SpinnersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0793DDF5281BF9CE00310E76 /* Debug */,
+				0793DDF6281BF9CE00310E76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0793DDC2281BF9C900310E76 /* Project object */;
+}
