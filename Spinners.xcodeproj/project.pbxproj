@@ -14,6 +14,8 @@
 		0793DDDF281BF9CE00310E76 /* SpinnersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0793DDDE281BF9CE00310E76 /* SpinnersTests.swift */; };
 		0793DDE9281BF9CE00310E76 /* SpinnersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0793DDE8281BF9CE00310E76 /* SpinnersUITests.swift */; };
 		0793DDEB281BF9CE00310E76 /* SpinnersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0793DDEA281BF9CE00310E76 /* SpinnersUITestsLaunchTests.swift */; };
+		0793DDF9281C204B00310E76 /* ListSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0793DDF8281C204900310E76 /* ListSpinner.swift */; };
+		0793DDFB281C21F900310E76 /* RingSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0793DDFA281C21F900310E76 /* RingSpinner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		0793DDE4281BF9CE00310E76 /* SpinnersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpinnersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0793DDE8281BF9CE00310E76 /* SpinnersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnersUITests.swift; sourceTree = "<group>"; };
 		0793DDEA281BF9CE00310E76 /* SpinnersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0793DDF8281C204900310E76 /* ListSpinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSpinner.swift; sourceTree = "<group>"; };
+		0793DDFA281C21F900310E76 /* RingSpinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingSpinner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,7 @@
 			children = (
 				0793DDCD281BF9C900310E76 /* SpinnersApp.swift */,
 				0793DDCF281BF9C900310E76 /* ContentView.swift */,
+				0793DDF7281C200800310E76 /* Components */,
 				0793DDD1281BF9CE00310E76 /* Assets.xcassets */,
 				0793DDD3281BF9CE00310E76 /* Preview Content */,
 			);
@@ -125,6 +130,15 @@
 				0793DDEA281BF9CE00310E76 /* SpinnersUITestsLaunchTests.swift */,
 			);
 			path = SpinnersUITests;
+			sourceTree = "<group>";
+		};
+		0793DDF7281C200800310E76 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				0793DDF8281C204900310E76 /* ListSpinner.swift */,
+				0793DDFA281C21F900310E76 /* RingSpinner.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +273,8 @@
 			files = (
 				0793DDD0281BF9C900310E76 /* ContentView.swift in Sources */,
 				0793DDCE281BF9C900310E76 /* SpinnersApp.swift in Sources */,
+				0793DDF9281C204B00310E76 /* ListSpinner.swift in Sources */,
+				0793DDFB281C21F900310E76 /* RingSpinner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
