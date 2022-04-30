@@ -10,19 +10,26 @@ import SwiftUI
 /// An example of using the list spinner
 struct ContentView : View {
     
-    @State var step = 0
-    
     var body : some View {
-        ListSpinner(
-            loadingStrings: ["Loading user information","Processing Data", "Preparing your feed"],
-            step: $step, direction: .leading)
-            .task {
-                Timer.scheduledTimer(withTimeInterval: 3, repeats: true) { timer in
-                    step += 1
+        NavigationView{
+            List{
+                //spinner list
+                NavigationLink("Spinner List") {
+                    SpinnerListArabicScreen()
+                }
+                //ring spinner
+                NavigationLink("Ring Spinner") {
+                    RingSpinner()
+                }
+                //loading button
+                NavigationLink("Loading Button"){
+                    LoadingButtonExampleScreen()
                 }
             }
+            .navigationTitle("UI Componenets")
+        }
     }
-}
+} 
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
