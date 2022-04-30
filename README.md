@@ -4,6 +4,8 @@ This repo includes reusable components built natively with SwiftUI. More will be
 ## Loading Button
 A responsive button that shows a clear feedback that there is a processing going on in the background.
 
+![alt text](https://github.com/hammadojh/SwiftUIReusableComponents/blob/main/LoadingButton.mov)
+
 ## List Spinner
 A loading component that shows the steps of the loading. Just provide it with a list of strings and a binding index to control the steps. and your done. 
 
