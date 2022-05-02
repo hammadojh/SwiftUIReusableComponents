@@ -11,6 +11,8 @@
 		0712E35A281D578200902604 /* RingSpinnerExampleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0712E359281D578200902604 /* RingSpinnerExampleScreen.swift */; };
 		0712E35C281D5EFB00902604 /* LoadingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0712E35B281D5EFB00902604 /* LoadingButton.swift */; };
 		0712E35E281D62CF00902604 /* LoadingButtonExampleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0712E35D281D62CF00902604 /* LoadingButtonExampleScreen.swift */; };
+		0712E360281E9CFB00902604 /* AchivedEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0712E35F281E9CFB00902604 /* AchivedEffect.swift */; };
+		0712E362281EB10500902604 /* AchivedEffectExampleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0712E361281EB10500902604 /* AchivedEffectExampleScreen.swift */; };
 		0793DDCE281BF9C900310E76 /* SpinnersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0793DDCD281BF9C900310E76 /* SpinnersApp.swift */; };
 		0793DDD0281BF9C900310E76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0793DDCF281BF9C900310E76 /* ContentView.swift */; };
 		0793DDD2281BF9CE00310E76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0793DDD1281BF9CE00310E76 /* Assets.xcassets */; };
@@ -44,6 +46,8 @@
 		0712E359281D578200902604 /* RingSpinnerExampleScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingSpinnerExampleScreen.swift; sourceTree = "<group>"; };
 		0712E35B281D5EFB00902604 /* LoadingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingButton.swift; sourceTree = "<group>"; };
 		0712E35D281D62CF00902604 /* LoadingButtonExampleScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingButtonExampleScreen.swift; sourceTree = "<group>"; };
+		0712E35F281E9CFB00902604 /* AchivedEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchivedEffect.swift; sourceTree = "<group>"; };
+		0712E361281EB10500902604 /* AchivedEffectExampleScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchivedEffectExampleScreen.swift; sourceTree = "<group>"; };
 		0793DDCA281BF9C900310E76 /* Spinners.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spinners.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0793DDCD281BF9C900310E76 /* SpinnersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnersApp.swift; sourceTree = "<group>"; };
 		0793DDCF281BF9C900310E76 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -89,6 +93,7 @@
 				0712E357281D568D00902604 /* SpinnerListExampleScreen.swift */,
 				0712E359281D578200902604 /* RingSpinnerExampleScreen.swift */,
 				0712E35D281D62CF00902604 /* LoadingButtonExampleScreen.swift */,
+				0712E361281EB10500902604 /* AchivedEffectExampleScreen.swift */,
 			);
 			path = ExampleScreens;
 			sourceTree = "<group>";
@@ -157,6 +162,7 @@
 				0793DDF8281C204900310E76 /* ListSpinner.swift */,
 				0793DDFA281C21F900310E76 /* RingSpinner.swift */,
 				0712E35B281D5EFB00902604 /* LoadingButton.swift */,
+				0712E35F281E9CFB00902604 /* AchivedEffect.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -293,9 +299,11 @@
 			files = (
 				0712E35E281D62CF00902604 /* LoadingButtonExampleScreen.swift in Sources */,
 				0712E358281D568D00902604 /* SpinnerListExampleScreen.swift in Sources */,
+				0712E362281EB10500902604 /* AchivedEffectExampleScreen.swift in Sources */,
 				0712E35C281D5EFB00902604 /* LoadingButton.swift in Sources */,
 				0793DDD0281BF9C900310E76 /* ContentView.swift in Sources */,
 				0712E35A281D578200902604 /* RingSpinnerExampleScreen.swift in Sources */,
+				0712E360281E9CFB00902604 /* AchivedEffect.swift in Sources */,
 				0793DDCE281BF9C900310E76 /* SpinnersApp.swift in Sources */,
 				0793DDF9281C204B00310E76 /* ListSpinner.swift in Sources */,
 				0793DDFB281C21F900310E76 /* RingSpinner.swift in Sources */,

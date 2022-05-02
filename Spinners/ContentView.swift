@@ -25,6 +25,10 @@ struct ContentView : View {
                 NavigationLink("Loading Button"){
                     LoadingButtonExampleScreen()
                 }
+                //achived effect
+                NavigationLink("Achived Effect"){
+                    AchivedEffectExampleScreen()
+                }
             }
             .navigationTitle("UI Componenets")
         }
