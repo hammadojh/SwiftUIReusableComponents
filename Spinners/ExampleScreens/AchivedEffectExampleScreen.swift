@@ -16,13 +16,14 @@ struct AchivedEffectExampleScreen: View {
     @State var colors:[Color] = [.red,.blue,.green,.orange,.yellow]
     
     @State var showEffect: Bool = false
-    @State var buttonLabel:String = "Show Effect"
+    @State var buttonLabel:String = "مفاجأة"
     
     var body: some View {
        
-        ZStack(alignment:.bottom){
+        ZStack(alignment:.top){
             
             if showEffect {
+                
                 AchivedEffect(speed:speed,
                               numCircles:numCircles,
                               maxSize:maxSize,
@@ -32,34 +33,41 @@ struct AchivedEffectExampleScreen: View {
                     .ignoresSafeArea(.all)
             }
             
+            
+            
             VStack{
+                
+                Spacer()
+                
+                Text("عيدكم مباااااارك").bold().font(.system(size: 64)).multilineTextAlignment(.center)
+                Button {
+                    showEffect.toggle()
+                    buttonLabel = "..."
+                    
+                    //reset
+                    DispatchQueue.main.asyncAfter(deadline: .now() + speed*2.0) {
+                        showEffect.toggle()
+                        buttonLabel = "مرة ثانية"
+                    }
+                    
+                } label: {
+                    Text(buttonLabel)
+                }
                 
                 Spacer()
                 
                 VStack{
                     
-                    Button {
-                        showEffect.toggle()
-                        buttonLabel = "showing.."
-                        
-                        //reset
-                        DispatchQueue.main.asyncAfter(deadline: .now() + speed*2.0) {
-                            showEffect.toggle()
-                            buttonLabel = "show again"
-                        }
-                        
-                    } label: {
-                        Text(buttonLabel)
-                    }
+                    
 
                     
                     HStack{
-                        Text("Number of Circles")
+                        Text("# Shapes")
                         TextField("", value: $numCircles, formatter: NumberFormatter())
                     }
                     
                     HStack{
-                        Text("Speed")
+                        Text("Delay")
                         Slider(value: $speed, in: 0.1...2)
                     }
                     
