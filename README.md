@@ -1,6 +1,10 @@
 # SwiftUIReusableComponents
 This repo includes reusable components built natively with SwiftUI. More will be added in the future. Feel free to use or extend any of these. 
 
+## Coin Flip
+Using 3DRotationEffect in swiftui and pure elements to flip a coin.
+https://user-images.githubusercontent.com/10475021/167309580-f5a23179-963b-4550-b356-7d544dec7c24.mov
+
 ## Archimedean Spiral
 When the beauty of math is combined with user interface animation. Simply an Archimedean Spiral [Formula from here](http://www.mathematische-basteleien.de/spiral.htm#:~:text=(1)%20Central%20equation%3A%20x%C2%B2%2By%C2%B2%20%3D%20a%C2%B2%5B,(y%2Fx)%5D%C2%B2.&text=The%20Archimedean%20spiral%20starts%20in,the%20origin%20are%20the%20same.)
 
